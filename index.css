@@ -1,9 +1,10 @@
 section {
   display: flex;
   flex-direction: column;
+  //justify-content: center;
+  align-items: center;
   border: 3px dotted "red";
-  margin: 0 auto;
-  width:50vw;
+  width:100vw;
 }
 article {
   background-color: black;
@@ -25,7 +26,10 @@ div {
   justify-content: center;
 }
 main {
-margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 p {
   font-size: 72px;
