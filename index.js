@@ -11,7 +11,7 @@ var predict = [
 
 let btn = document.querySelector("button");
 let div = document.querySelector("div");
-//let h1 = document.querySelector("h1");
+let h1 = document.querySelector("h1").style.fontSize = "20px";
 
 function runPrediction() {
   let randomNumb = Math.floor(Math.random() * predict.length);
